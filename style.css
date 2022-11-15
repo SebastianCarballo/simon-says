@@ -1,0 +1,41 @@
+body {
+  background-color: beige;
+  text-align: center;
+}
+#play {
+  text-align: center;
+  height: 50px;
+  border-width: 5px;
+  border-radius: 15px;
+  border: solid 2px black;
+  font-size: 15px;
+}
+
+button {
+  width: 350px;
+  height: 250px;
+  margin: 25px;
+  border: solid 4px black;
+  border-width: 5px;
+  border-radius: 25px;
+}
+
+#simon {
+  font-size: 50px;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#verde {
+  background-color: green;
+}
+
+#amarrilo {
+  background-color: yellow;
+}
+
+#azul {
+  background-color: blue;
+}
