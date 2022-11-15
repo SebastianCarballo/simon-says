@@ -1,41 +1,50 @@
 body {
-  background-color: beige;
-  text-align: center;
+    background-color: beige;
+    text-align: center;
+    font-family: 'VT323', monospace;
 }
 #play {
-  text-align: center;
-  height: 50px;
-  border-width: 5px;
-  border-radius: 15px;
-  border: solid 2px black;
-  font-size: 15px;
+    text-align: center;
+    height: 50px;
+    border-width: 5px;
+    border-radius: 15px;
+    border: solid 2px black;
+    font-size: 15px;
 }
 
 button {
-  width: 350px;
-  height: 250px;
-  margin: 25px;
-  border: solid 4px black;
-  border-width: 5px;
-  border-radius: 25px;
+    width: 350px;
+    height: 250px;
+    margin: 25px;
+    border: solid 4px black;
+    border-width: 5px;
+    border-radius: 25px;
+}
+
+button:active {
+    box-shadow: 0px 0px 25px black;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 #simon {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 #rojo {
-  background-color: red;
+    background-color: red;
 }
 
 #verde {
-  background-color: green;
+    background-color: green;
 }
 
 #amarrilo {
-  background-color: yellow;
+    background-color: yellow;
 }
 
 #azul {
-  background-color: blue;
+    background-color: blue;
 }
