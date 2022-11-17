@@ -44,12 +44,16 @@ function nuevoNivel() {
 	}, 500);
 }
 
+
 function iluminarBoton(boton) {
-	boton.classList.add('active');
+	boton.style.borderColor = 'white';
 	setTimeout(() => {
-		boton.classList.remove('active');
+		boton.style.borderColor = '';
 	}, 1000);
 }
+
+
+
 
 
 

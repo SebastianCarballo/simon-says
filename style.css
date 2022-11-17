@@ -12,6 +12,11 @@ body {
     font-size: 15px;
 }
 
+color {
+    background-color: white;
+    color: white;
+}
+
 button {
     width: 650px;
     height: 180px;
@@ -26,7 +31,10 @@ button:active {
     box-shadow: 1px 1px 55px rgb(255, 255, 255);
     border: solid 5px white;
 }
-
+active {
+    box-shadow: 1px 1px 55px rgb(255, 255, 255);
+    border: solid 5px white;
+}
 h1 {
     color: gray;
     background-color: greenyellow;
