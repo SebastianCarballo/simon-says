@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: gray;
     text-align: center;
     font-family: 'VT323', monospace;
 }
@@ -13,38 +13,47 @@ body {
 }
 
 button {
-    width: 350px;
-    height: 250px;
+    width: 650px;
+    height: 180px;
     margin: 25px;
     border: solid 4px black;
     border-width: 5px;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 button:active {
-    box-shadow: 0px 0px 25px black;
+    box-shadow: 1px 1px 55px rgb(255, 255, 255);
+    border: solid 5px white;
+}
+
+h1 {
+    color: gray;
+    background-color: greenyellow;
 }
 
 h2 {
     font-size: 40px;
+    color: white;
 }
 
 #simon {
     font-size: 50px;
+    color: white;
+    margin: 0px;
 }
-
 #rojo {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 
 #verde {
-    background-color: green;
+    background-color: rgb(0, 255, 0);
 }
 
-#amarrilo {
+#amarillo {
     background-color: yellow;
 }
 
 #azul {
-    background-color: blue;
+    background-color: rgb(0, 0, 255);
 }
