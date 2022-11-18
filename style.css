@@ -1,41 +1,67 @@
 body {
-  background-color: beige;
-  text-align: center;
+    background-color: gray;
+    text-align: center;
+    font-family: 'VT323', monospace;
 }
 #play {
-  text-align: center;
-  height: 50px;
-  border-width: 5px;
-  border-radius: 15px;
-  border: solid 2px black;
-  font-size: 15px;
+    text-align: center;
+    height: 50px;
+    border-width: 5px;
+    border-radius: 15px;
+    border: solid 2px black;
+    font-size: 15px;
+}
+
+color {
+    background-color: white;
+    color: white;
 }
 
 button {
-  width: 350px;
-  height: 250px;
-  margin: 25px;
-  border: solid 4px black;
-  border-width: 5px;
-  border-radius: 25px;
+    width: 650px;
+    height: 180px;
+    margin: 25px;
+    border: solid 4px black;
+    border-width: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: 1px 1px 55px rgb(255, 255, 255);
+    border: solid 5px white;
+}
+active {
+    box-shadow: 1px 1px 55px rgb(255, 255, 255);
+    border: solid 5px white;
+}
+h1 {
+    color: gray;
+    background-color: greenyellow;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
 }
 
 #simon {
-  font-size: 50px;
+    font-size: 50px;
+    color: white;
+    margin: 0px;
 }
-
 #rojo {
-  background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 
 #verde {
-  background-color: green;
+    background-color: rgb(0, 255, 0);
 }
 
-#amarrilo {
-  background-color: yellow;
+#amarillo {
+    background-color: yellow;
 }
 
 #azul {
-  background-color: blue;
+    background-color: rgb(0, 0, 255);
 }
